@@ -1,0 +1,28 @@
+Git commands used in the terminal
+
+1. git init
+   Initializes a new Git repository in the current directory.
+
+2. git status
+   Shows the repository's current state, including untracked, modified, and staged files.
+   This command was run five times.
+
+3. git add testing.py
+   Stages testing.py so its changes can be included in the next commit.
+
+4. git commit -m "file added"
+   Creates a commit from staged changes with the message "file added".
+
+5. git restore testing.py
+   Discards unstaged changes to testing.py and restores the version from the index.
+
+Command history, in order:
+git init
+git status
+git add testing.py
+git status
+git commit -m "file added"
+git status
+git status
+git restore testing.py
+git status
