@@ -16,6 +16,21 @@ Git commands used in the terminal
 5. git restore testing.py
    Discards unstaged changes to testing.py and restores the version from the index.
 
+6. git status --short
+   Shows a concise summary of modified and untracked files.
+
+7. git --no-pager log -5 --oneline
+   Shows the five most recent commits in a compact format without opening a pager.
+
+8. git remote -v
+   Shows the configured remote repositories for fetch and push.
+
+9. git remote set-url origin https://<TOKEN>@github.com/yashmalthane22/github-workshop.git
+   Updates the origin URL. The personal access token is intentionally redacted.
+
+10. git push origin master
+    Pushes the master branch to the origin remote.
+
 Command history, in order:
 git init
 git status
@@ -26,3 +41,9 @@ git status
 git status
 git restore testing.py
 git status
+git status --short
+git --no-pager log -5 --oneline
+git remote -v
+git remote set-url origin https://<TOKEN>@github.com/yashmalthane22/github-workshop.git
+git remote -v
+git push origin master
